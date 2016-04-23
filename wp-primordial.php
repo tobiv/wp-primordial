@@ -3,7 +3,7 @@
  * Plugin Name: WP Primordial
  * Plugin URI: https://github.com/tobiv/wp-primordial
  * Description: Basic WordPress plugin. Remove some unneeded stuff from the html header.
- * Version: 1.0
+ * Version: 1.0.0
  * Author: Tobias Vogler
  * Author URI: https://tvdesign.ch
  * License: GPL-3.0+
