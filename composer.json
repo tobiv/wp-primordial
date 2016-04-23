@@ -1,0 +1,15 @@
+{
+  "name": "tobiv/wp-primordial",
+  "description": "Basic WordPress plugin. Remove some unneeded stuff from the html header.",
+  "type": "wordpress-muplugin",
+  "require": {
+    "composer/installers": "^1.0"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Tobias Vogler",
+      "email": "tobi@tvdesign.ch"
+    }
+  ]
+}
