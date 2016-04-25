@@ -1,14 +1,8 @@
 # wp-primordial
 Basic WordPress plugin. Remove some unneeded stuff from the html header.
 
-To install with composer:
+The plugin is published on packagist.org, so you can simply install with composer:
 
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/tobiv/wp-primordial.git"
-      }
-    ],
     "require": {
       "tobiv/wp-primordial": "dev-master"
     }
