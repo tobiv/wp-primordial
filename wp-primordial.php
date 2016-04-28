@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP Primordial
  * Plugin URI: https://github.com/tobiv/wp-primordial
- * Description: Basic WordPress plugin. Removes some unneeded stuff from the html header.
+ * Description: Basic WordPress primer plugin for <tv> websites.
  * Version: 1.0.0
  * Author: Tobias Vogler
  * Author URI: https://tvdesign.ch
@@ -43,3 +43,11 @@ function remove_admin_login_header() {
 	remove_action('wp_head', '_admin_bar_bump_cb');
 }
 add_action('get_header', 'remove_admin_login_header');
+
+/*
+ * Hide core update nag in admin
+ */
+function wphidenag() {
+  remove_action( 'admin_notices', 'update_nag', 3 );
+}
+add_action('admin_menu','wphidenag');
