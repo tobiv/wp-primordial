@@ -71,12 +71,14 @@ class WP_Primordial {
 
     // Hide core update nag in admin
     if($this->options['hide_core_update'] === true) {
-      remove_action('admin_notices', 'update_nag', 3);
+      remove_action( 'admin_notices', 'update_nag',      3  );
+      remove_action( 'admin_notices', 'maintenance_nag', 10 );
     }
   }
 
   /*
    * Deregister jquery embed script
+   * @TODO Check with WP 5.x
    */
   private function deregister_scripts() {
     wp_deregister_script('wp-embed');
