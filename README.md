@@ -15,3 +15,7 @@ The plugin is published on packagist.org, so you can simply install with compose
     "require": {
       "tobiv/wp-primordial": "dev-master"
     }
+    
+
+License: GPLv2 or later http://www.gnu.org/licenses/gpl-2.0.html
+
